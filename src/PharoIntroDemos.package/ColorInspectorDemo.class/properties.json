@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "BouncingAtomsDemo",
+	"name" : "ColorInspectorDemo",
 	"type" : "normal"
 }

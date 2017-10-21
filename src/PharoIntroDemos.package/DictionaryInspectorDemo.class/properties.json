@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "BouncingAtomsDemo",
+	"name" : "DictionaryInspectorDemo",
 	"type" : "normal"
 }

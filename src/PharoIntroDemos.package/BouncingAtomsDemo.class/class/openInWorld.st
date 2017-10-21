@@ -1,0 +1,3 @@
+display
+openInWorld
+	BouncingAtomsMorph new openInWorld

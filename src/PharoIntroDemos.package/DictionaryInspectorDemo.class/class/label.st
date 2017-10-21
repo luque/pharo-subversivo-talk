@@ -1,0 +1,3 @@
+actions
+label
+^ 'Inspector - Dictionary'
