@@ -11,7 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
     <link rel="stylesheet" href="osoco-reveal-template/reveal.js/css/reveal.css">
-		<link rel="stylesheet" href="osoco-reveal-template/css/theme/osoco.css" id="theme">
+    <link rel="stylesheet" href="osoco-reveal-template/css/theme/osoco.css" id="theme">
 
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="osoco-reveal-template/reveal.js/lib/css/zenburn.css">
@@ -39,10 +39,10 @@
             <section id="cover">
                 <div id="cover-contents">
 
-                <h1>Talk title goes here and may be long</h1>
-					      <h3>This is a subtitle</h3>
+                <h1>Introducción a Pharo</h1>
+					      <h3>Un Medio de Programación Subversiva</h3>
 					      <p class="author">
-						        <small>Author Name / <a href="http://twitter.com/osoco">@osoco</a></small>
+						        <small>Rafael Luque / <a href="http://twitter.com/osoco">@osoco</a></small>
 					      </p>
                 </div>
 
@@ -813,6 +813,13 @@ Reveal.addEventListener( 'customevent', function() {
         slideNumber: false,
 				transition: 'convex', // none/fade/slide/convex/concave/zoom
 
+        multiplex: {
+            secret: '15108489066402819801', // Obtained from https://reveal-js-multiplex-ccjbegmaii.now.sh socket.io server
+            id: '01d7d66ca59ecb91',
+            url: 'https://reveal-js-multiplex-ccjbegmaii.now.sh'
+
+        },
+
 				// Optional reveal.js plugins
 				dependencies: [
 					  { src: 'osoco-reveal-template/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
@@ -820,7 +827,9 @@ Reveal.addEventListener( 'customevent', function() {
 					  { src: 'osoco-reveal-template/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 					  { src: 'osoco-reveal-template/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 					  { src: 'osoco-reveal-template/reveal.js/plugin/zoom-js/zoom.js', async: true },
-					  { src: 'osoco-reveal-template/reveal.js/plugin/notes/notes.js', async: true }
+					  { src: 'osoco-reveal-template/reveal.js/plugin/notes/notes.js', async: true },
+					  { src: 'https://cdn.socket.io/socket.io-1.3.5.js', async: true },
+					  { src: 'osoco-reveal-template/reveal.js/plugin/multiplex/master.js', async: true }
 				]
 			});
 
