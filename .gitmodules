@@ -1,0 +1,3 @@
+[submodule "slides/osoco-reveal-template/reveal.js"]
+	path = slides/osoco-reveal-template/reveal.js
+	url = git@github.com:hakimel/reveal.js.git
