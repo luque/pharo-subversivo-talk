@@ -6,5 +6,4 @@ menuCommandOn: aBuilder
 		order: 9.0;
 		action: [ self openInWorkspace
 			"	load;" ];
-		icon: ((self iconNamed: #smallInspect) scaledToSize: 16 @ 16);
-		withSeparatorAfter
+		icon: ((self iconNamed: #smallInspect) scaledToSize: 16 @ 16)

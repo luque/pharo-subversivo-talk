@@ -3,8 +3,8 @@ menuCommandOn: aBuilder
 	<worldMenu>
 	(aBuilder item: self label asSymbol)
 		parent: #'Pharo Subversivo Demos';
-		order: 13.0;
-		action: [ self openInWorkspace
-			"	load;" ];
+		order: 9.1;
+		action: [ self load; openInWorkspace
+			 ];
 		icon: ((self iconNamed: #smallInspect) scaledToSize: 16 @ 16);
 		withSeparatorAfter
