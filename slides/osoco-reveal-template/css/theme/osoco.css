@@ -148,6 +148,10 @@ body {
 .reveal blockquote p:last-child {
   display: inline-block; }
 
+.reveal td blockquote {
+    font-size: 80%;
+}
+
 .reveal q {
   font-style: italic; }
 
@@ -187,7 +191,9 @@ body {
   text-align: center;
   padding: 0.2em 0.5em 0.2em 0.5em;
   border-bottom: 1px solid;
-  color: #fff; }
+  color: #333;
+  vertical-align: top;
+}
 
 .reveal table th[align="center"],
 .reveal table td[align="center"] {
