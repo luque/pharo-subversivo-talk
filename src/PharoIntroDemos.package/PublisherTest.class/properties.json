@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "BabyMock2TestCase",
+	"category" : "PharoIntroDemos",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PublisherTest",
+	"type" : "normal"
+}

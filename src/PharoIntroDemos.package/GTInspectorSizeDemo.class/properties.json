@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "AbstractPharoDemos",
+	"category" : "PharoIntroDemos",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GTInspectorSizeDemo",
+	"type" : "normal"
+}

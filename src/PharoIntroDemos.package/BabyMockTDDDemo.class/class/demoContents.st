@@ -1,0 +1,3 @@
+actions
+demoContents
+	^ 'PublisherTest browse.'

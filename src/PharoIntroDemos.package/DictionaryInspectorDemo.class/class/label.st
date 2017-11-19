@@ -1,3 +1,3 @@
 actions
 label
-^ 'Inspector - Dictionary'
+^ 'Moldeability - Dictionary'

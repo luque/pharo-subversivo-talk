@@ -1,3 +1,3 @@
 actions
 label
-	^ 'Inspector - Color'
+	^ 'Moldeability - Color'

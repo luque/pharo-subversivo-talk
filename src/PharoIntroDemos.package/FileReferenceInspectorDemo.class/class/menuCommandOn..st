@@ -3,7 +3,7 @@ menuCommandOn: aBuilder
 	<worldMenu>
 	(aBuilder item: self label asSymbol)
 		parent: #'Pharo Subversivo Demos';
-		order: 4.0;
+		order: 6.0;
 		action: [ self
 				load;
 				openInWorkspace ];
