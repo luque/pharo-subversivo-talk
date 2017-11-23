@@ -12,14 +12,14 @@ section.has-light-background, section.has-light-background h1, section.has-light
  *********************************************/
 body {
   background: #fff;
-  background-color: #fff; }
+  background-color: #e0e0e0; }
 
 .reveal {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 38px;
   font-weight: normal;
   color: #333;
-  background-color: #f9f9f9;
+  background-color: #e0e0e0;
 }
 
 ::selection {
