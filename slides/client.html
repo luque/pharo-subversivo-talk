@@ -772,15 +772,17 @@
 	    <section>
      	      <h2>Recursos</h2>
 	      <ul>
-		<li>Código y slides: <a href="https://github.com/luque/pharo-subversivo-talk">https://github.com/luque/pharo-subversivo-talk</a></li>
+		<li>Código fuente: <a href="https://github.com/luque/pharo-subversivo-talk">https://github.com/luque/pharo-subversivo-talk</a></li>
 	        <li>Referencias: <a href="http://rluque.dropmark.com/477456">http://rluque.dropmark.com/477456</a></li>
 	      </ul>
 	    </section>
-	</section>	
-
+	</section>
 	
 	<section style="text-align: left;">
-	    <h1>Gracias. ¿Alguna pregunta?</h1>
+	  <h1>¿Preguntas?</h1>
+  <p>
+  <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Este obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">licencia de Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional</a>.
+  </p>
 	</section>
 
 </div>
@@ -794,7 +796,7 @@
     <script src="osoco-reveal-template/lib/js/vivus/vivus.js"></script>
     <script src="osoco-reveal-template/lib/js/gears/gears.js"></script>
 
-    <script>
+		<script>
      function showCoverContents() {
          document.getElementById("cover-contents").className = "uncovered";
          // setTimeout(initGears, 2000);
@@ -810,12 +812,14 @@
 				center: true,
         slideNumber: false,
 				transition: 'convex', // none/fade/slide/convex/concave/zoom
-             multiplex: {
-                 secret: null, // null so the clients do not have control of othe master presentation
-                 id: '01d7d66ca59ecb91',
-                 url: 'https://reveal-js-multiplex-ccjbegmaii.now.sh'
 
-             },
+        multiplex: {
+            secret: '',
+            id: '01d7d66ca59ecb91',
+            url: 'https://reveal-js-multiplex-ccjbegmaii.now.sh'
+
+        },
+
 				// Optional reveal.js plugins
 				dependencies: [
 					  { src: 'osoco-reveal-template/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
